@@ -1,4 +1,4 @@
-class disable_service {
+class services::disable_service {
 	
 	service { $disbaled_services :
 		ensure => 'stopped',
